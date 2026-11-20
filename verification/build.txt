@@ -1,0 +1,6 @@
+Lean build completed for Main.
+Lean version: 4.33.1
+Dependency closure: 175187 of 175187 module artifacts present.
+Main.olean created: 2026-11-21T06:23:31+08:00
+Main.olean SHA-256: ce9a2006adda570c7404866ff3ceb4a7341c6c5d8ae7b56b6d8600b4c312d1ab
+Axiom audit completed: 2026-11-21T06:24:26+08:00

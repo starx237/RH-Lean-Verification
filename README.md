@@ -22,4 +22,8 @@ The recorded verification compiles the modules in the dependency closure of `Mai
 
 ## Build status
 
-The [build progress snapshot](verification/build-progress.txt) records the run while compilation is in progress.
+The build completed for `Main`. The axiom audit reports `propext`, `Classical.choice`, and `Quot.sound` for each of the five declarations.
+
+- [Build record](verification/build.txt)
+- [Axiom audit output](verification/axioms.txt)
+- [Build progress snapshot](verification/build-progress.txt)
