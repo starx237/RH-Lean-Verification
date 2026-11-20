@@ -26,4 +26,4 @@ The build completed for `Main`. The axiom audit reports `propext`, `Classical.ch
 
 - [Build record](verification/build.txt)
 - [Axiom audit output](verification/axioms.txt)
-- [Build progress snapshot](verification/build-progress.txt)
+- [Build log](verification/build-progress.txt)

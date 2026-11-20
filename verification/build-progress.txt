@@ -1,6 +1,6 @@
-Lean build progress snapshot
-Timestamps use UTC+08:00. This snapshot records an in-progress build.
-Failures and retries describe individual attempts. Counts apply to the relevant build segment.
+Lean build log
+Timestamps use UTC+08:00. Records are listed in source-log order within each section.
+Failure and retry entries describe individual attempts. Counts apply to the relevant build segment.
 
 Main build
 2026-11-21 00:22:11 passed=2/175187 failed=0 running=240
@@ -3001,6 +3001,69 @@ RETRY Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.Integr
 2026-11-21 06:10:39 passed=175158/175187 failed=0 running=1
 2026-11-21 06:10:54 passed=175158/175187 failed=0 running=1
 2026-11-21 06:11:09 passed=175159/175187 failed=0 running=1
+2026-11-21 06:11:24 passed=175159/175187 failed=0 running=1
+2026-11-21 06:11:39 passed=175159/175187 failed=0 running=1
+2026-11-21 06:11:54 passed=175159/175187 failed=0 running=1
+2026-11-21 06:12:09 passed=175159/175187 failed=0 running=1
+2026-11-21 06:12:24 passed=175160/175187 failed=0 running=1
+2026-11-21 06:12:39 passed=175160/175187 failed=0 running=1
+2026-11-21 06:12:54 passed=175160/175187 failed=0 running=1
+2026-11-21 06:13:09 passed=175160/175187 failed=0 running=1
+2026-11-21 06:13:24 passed=175161/175187 failed=0 running=1
+2026-11-21 06:13:39 passed=175162/175187 failed=0 running=1
+2026-11-21 06:13:54 passed=175165/175187 failed=0 running=4
+2026-11-21 06:14:09 passed=175167/175187 failed=0 running=5
+2026-11-21 06:14:24 passed=175171/175187 failed=0 running=2
+2026-11-21 06:14:39 passed=175173/175187 failed=0 running=1
+2026-11-21 06:14:54 passed=175173/175187 failed=0 running=1
+2026-11-21 06:15:09 passed=175173/175187 failed=0 running=1
+2026-11-21 06:15:24 passed=175175/175187 failed=0 running=1
+2026-11-21 06:15:39 passed=175177/175187 failed=0 running=2
+2026-11-21 06:15:54 passed=175177/175187 failed=0 running=2
+2026-11-21 06:16:10 passed=175177/175187 failed=0 running=2
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable next=1
+RETRY Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin next=1
+2026-11-21 06:16:25 passed=175177/175187 failed=0 running=2
+2026-11-21 06:16:40 passed=175177/175187 failed=0 running=2
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable next=2
+RETRY Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin next=2
+2026-11-21 06:16:55 passed=175177/175187 failed=0 running=2
+2026-11-21 06:17:10 passed=175177/175187 failed=0 running=2
+2026-11-21 06:17:25 passed=175178/175187 failed=0 running=1
+2026-11-21 06:17:40 passed=175179/175187 failed=0 running=1
+2026-11-21 06:17:55 passed=175179/175187 failed=0 running=1
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TopMainZj next=1
+2026-11-21 06:18:10 passed=175179/175187 failed=0 running=1
+2026-11-21 06:18:25 passed=175179/175187 failed=0 running=1
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TopMainZj next=2
+2026-11-21 06:18:40 passed=175179/175187 failed=0 running=1
+2026-11-21 06:18:55 passed=175179/175187 failed=0 running=1
+2026-11-21 06:19:10 passed=175179/175187 failed=0 running=1
+2026-11-21 06:19:25 passed=175180/175187 failed=0 running=2
+2026-11-21 06:19:40 passed=175180/175187 failed=0 running=2
+2026-11-21 06:19:55 passed=175180/175187 failed=0 running=2
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow next=1
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf next=1
+2026-11-21 06:20:10 passed=175180/175187 failed=0 running=2
+2026-11-21 06:20:25 passed=175180/175187 failed=0 running=2
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow next=2
+2026-11-21 06:20:40 passed=175180/175187 failed=0 running=2
+RETRY Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf next=2
+2026-11-21 06:20:55 passed=175180/175187 failed=0 running=2
+2026-11-21 06:21:10 passed=175180/175187 failed=0 running=2
+FAILED Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf exit=-6
+2026-11-21 06:21:25 passed=175181/175187 failed=1 running=1
+2026-11-21 06:21:40 passed=175181/175187 failed=1 running=1
+2026-11-21 06:21:55 passed=175181/175187 failed=1 running=1
+RETRY Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion next=1
+2026-11-21 06:22:10 passed=175181/175187 failed=1 running=1
+2026-11-21 06:22:25 passed=175181/175187 failed=1 running=1
+2026-11-21 06:22:40 passed=175181/175187 failed=1 running=1
+RETRY Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion next=2
+2026-11-21 06:22:55 passed=175181/175187 failed=1 running=1
+2026-11-21 06:23:10 passed=175181/175187 failed=1 running=1
+FAILED Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion exit=-6
+passed=175181/175187 failed=2
 
 Auxiliary build
 2026-11-21 01:44:45 passed=5/3840 failed=0 running=96
@@ -4050,3 +4113,185 @@ RETRY Development.EtaleCohomology.CohomologicalPurity.LeafLocPrdPfX next=1
 2026-11-21 06:10:41 passed=31961/36721 failed=0 running=152
 2026-11-21 06:10:56 passed=31992/36721 failed=0 running=152
 2026-11-21 06:11:12 passed=32033/36721 failed=0 running=152
+2026-11-21 06:11:27 passed=32071/36721 failed=0 running=152
+2026-11-21 06:11:42 passed=32105/36721 failed=0 running=152
+2026-11-21 06:11:57 passed=32152/36721 failed=0 running=152
+2026-11-21 06:12:12 passed=32186/36721 failed=0 running=152
+2026-11-21 06:12:27 passed=32220/36721 failed=0 running=152
+2026-11-21 06:12:42 passed=32254/36721 failed=0 running=152
+2026-11-21 06:12:57 passed=32298/36721 failed=0 running=152
+2026-11-21 06:13:12 passed=32340/36721 failed=0 running=152
+2026-11-21 06:13:27 passed=32371/36721 failed=0 running=152
+2026-11-21 06:13:43 passed=32406/36721 failed=0 running=152
+2026-11-21 06:13:58 passed=32446/36721 failed=0 running=152
+2026-11-21 06:14:13 passed=32487/36721 failed=0 running=152
+2026-11-21 06:14:28 passed=32525/36721 failed=0 running=152
+2026-11-21 06:14:43 passed=32563/36721 failed=0 running=152
+2026-11-21 06:14:58 passed=32597/36721 failed=0 running=152
+2026-11-21 06:15:13 passed=32629/36721 failed=0 running=152
+2026-11-21 06:15:28 passed=32667/36721 failed=0 running=152
+2026-11-21 06:15:43 passed=32706/36721 failed=0 running=152
+2026-11-21 06:15:58 passed=32746/36721 failed=0 running=152
+2026-11-21 06:16:13 passed=32784/36721 failed=0 running=152
+2026-11-21 06:16:29 passed=32812/36721 failed=0 running=152
+2026-11-21 06:16:44 passed=32853/36721 failed=0 running=152
+2026-11-21 06:16:59 passed=32899/36721 failed=0 running=152
+2026-11-21 06:17:14 passed=32925/36721 failed=0 running=152
+2026-11-21 06:17:29 passed=32953/36721 failed=0 running=152
+2026-11-21 06:17:44 passed=32978/36721 failed=0 running=152
+2026-11-21 06:17:59 passed=33022/36721 failed=0 running=152
+2026-11-21 06:18:14 passed=33045/36721 failed=0 running=152
+2026-11-21 06:18:29 passed=33077/36721 failed=0 running=152
+2026-11-21 06:18:44 passed=33105/36721 failed=0 running=152
+2026-11-21 06:18:59 passed=33138/36721 failed=0 running=152
+2026-11-21 06:19:14 passed=33167/36721 failed=0 running=152
+2026-11-21 06:19:29 passed=33198/36721 failed=0 running=152
+2026-11-21 06:19:44 passed=33226/36721 failed=0 running=152
+2026-11-21 06:20:00 passed=33250/36721 failed=0 running=152
+2026-11-21 06:20:15 passed=33285/36721 failed=0 running=152
+2026-11-21 06:20:30 passed=33321/36721 failed=0 running=152
+2026-11-21 06:20:45 passed=33355/36721 failed=0 running=152
+2026-11-21 06:21:00 passed=33383/36721 failed=0 running=152
+2026-11-21 06:21:15 passed=33420/36721 failed=0 running=152
+2026-11-21 06:21:30 passed=33451/36721 failed=0 running=152
+2026-11-21 06:21:45 passed=33487/36721 failed=0 running=152
+2026-11-21 06:22:00 passed=33530/36721 failed=0 running=152
+2026-11-21 06:22:15 passed=33557/36721 failed=0 running=152
+2026-11-21 06:22:30 passed=33593/36721 failed=0 running=152
+2026-11-21 06:22:45 passed=33623/36721 failed=0 running=152
+2026-11-21 06:23:00 passed=33670/36721 failed=0 running=152
+2026-11-21 06:23:16 passed=33713/36721 failed=0 running=152
+2026-11-21 06:23:31 passed=33739/36721 failed=0 running=152
+2026-11-21 06:23:46 passed=33773/36721 failed=0 running=152
+2026-11-21 06:24:01 passed=33816/36721 failed=0 running=152
+2026-11-21 06:24:16 passed=33851/36721 failed=0 running=152
+2026-11-21 06:24:31 passed=33886/36721 failed=0 running=152
+2026-11-21 06:24:46 passed=33922/36721 failed=0 running=152
+2026-11-21 06:25:01 passed=33963/36721 failed=0 running=152
+2026-11-21 06:25:16 passed=33983/36721 failed=0 running=152
+2026-11-21 06:25:31 passed=34023/36721 failed=0 running=152
+
+Parallel build
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B exit=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 exit=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 attempt=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B attempt=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr1C exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr2 exit=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.LocTr0B exit=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.NineAddCore attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.NineAddCore attempt=1
+FAILED Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.NineAddCore exit=1
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.NineAddCore attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.NineAddCore attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.PoitouTateDuality.PoitouTateNineTerm.PoitouTateNormalisedHolds attempt=0
+START GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenFree attempt=0
+COMPLETED GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenFree
+START GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenTau attempt=0
+COMPLETED GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenTau
+START GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenHyp attempt=0
+COMPLETED GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenHyp
+START GroundTheory.ProfiniteCohomology.PoitouTate.NonemptyOfNatCastMemOfNeOne attempt=0
+COMPLETED GroundTheory.ProfiniteCohomology.PoitouTate.NonemptyOfNatCastMemOfNeOne
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkMultl attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkMultl
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.Reduce attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.Reduce
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledC attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledA attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkSplit attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkDevis attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledA
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkEndx attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.ExistsPrimeToPart attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkDevis
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkEndx
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkEndn attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledC
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkQuotV attempt=0
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkCoinfB attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkSplit
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkQuotV
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkEndn
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkCoinfB
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.RatioEqOneOfCyclic attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.ExistsPrimeToPart
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledB attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.RatioEqOneOfCyclic
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkKilledB
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkAssemble attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.WorkAssemble
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.Assemble attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.Assemble
+START Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.GlobalEulerCharOfLemmaX attempt=0
+COMPLETED Development.WeilBound.CoreStatements.PublishedTheorems.GlobalEulerCharacteristic.GlobalEulerCharOfLemmaX
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable attempt=0
+START Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin attempt=0
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable attempt=1
+START Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin attempt=1
+FAILED Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable exit=-6
+FAILED Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin exit=-6
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable attempt=0 threads=32
+START Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin attempt=0 threads=32
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable attempt=1 threads=32
+START Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin attempt=1 threads=32
+COMPLETED Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin
+COMPLETED Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TopMainZj attempt=0 threads=64
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TopMainZj attempt=1 threads=64
+COMPLETED Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TopMainZj
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow attempt=0 threads=32
+START Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf attempt=0 threads=32
+START Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow attempt=1 threads=32
+START Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf attempt=1 threads=32
+START Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion attempt=0 threads=32
+START Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion attempt=1 threads=64
+START Supplements.Kernels.MainTheorems attempt=0 threads=32
+START Supplements.Kernels.MainTheorems attempt=1 threads=64
+START Supplements.Kernels.MainTheoremsCritical attempt=0 threads=32
+START Supplements.Kernels.MainTheoremsCritical attempt=1 threads=64
+START Supplements.Kernels.MainTheoremsAll attempt=0 threads=32
+START Supplements.Kernels.MainTheoremsAll attempt=1 threads=64
+START Main attempt=0 threads=32
+START Main attempt=1 threads=64
+Main available
+
+High-memory builds
+STARTED Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow
+STARTED Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf
+COMPILED Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf
+COMPILED Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow
+STARTED Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion
+COMPILED Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion
+STARTED Supplements.Kernels.MainTheorems
+COMPILED Supplements.Kernels.MainTheorems
+STARTED Supplements.Kernels.MainTheoremsCritical
+COMPILED Supplements.Kernels.MainTheoremsCritical
+STARTED Supplements.Kernels.MainTheoremsAll
+COMPILED Supplements.Kernels.MainTheoremsAll
+STARTED Main
+COMPILED Main
+
+Verified outcome
+2026-11-21T06:23:31+08:00 Main.olean created; 175187/175187 module artifacts present.
+2026-11-21T06:24:26+08:00 All five axiom checks passed.
